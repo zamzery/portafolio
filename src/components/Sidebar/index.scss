@@ -14,11 +14,13 @@
 		img {
 			display: block;
 			margin: 8px auto;
+			padding-right: 8px;
 			width: 38px;
 			height: auto;
 
 			&.sub-logo {
 				width: 58px;
+				margin-right: 10px;
 			}
 		}
 	}
@@ -73,26 +75,26 @@
 
 			&:first-child {
 				&:after {
-					content: 'INICIO';
+					content: 'HOME';
 				}
 			}
 		}
 
 		a.about-link {
 			&:after {
-				content: 'SOBRE MI';
+				content: 'ABOUT ME';
 			}
 		}
 
 		a.contact-link {
 			&:after {
-				content: 'CONTACTO';
+				content: 'CONTACT';
 			}
 		}
 
 		a.portfolio-link {
 			&:after {
-				content: 'PORTAFOLIO';
+				content: 'PORTFOLIO';
 			}
 		}
 
